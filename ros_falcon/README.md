@@ -1,13 +1,8 @@
 # Description
 This package allows ROS interface with the Novint Falcon Device.
 
-## Authors
-Steven Martin:
-
-Adnan Munawar: amunawar@wpi.edu
-
 ## Dependencies
-Tested on ROS Hydro, Indigo and Melodic.
+Tested on ROS Kinetic, Hydro, Indigo and Melodic.
 
 Download and install the drivers from:
 
