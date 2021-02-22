@@ -7,14 +7,14 @@ A. Two wheeled Robot:
    
    $ roslaunch ros_robotics diff_wheeled_gazebo_full.launch
    
-   *** ● Files required:
-     ❏ diff_wheeled_gazebo_full.launch
-     ❏ diff_wheeled_robot_with_sensor.xacro
-     ❏ wheel.urdf .xacro                 ***
+        ● Files required:
+                         ❏ diff_wheeled_gazebo_full.launch
+                         ❏ diff_wheeled_robot_with_sensor.xacro
+                         ❏ wheel.urdf .xacro                 
      
 2. Run the python joystick node.
    
-      ● Files required: ❏ joy2cmd_vel_diff.py
+         ● Files required: ❏ joy2cmd_vel_diff.py
       
    $ cd ~/catkin_ws_ars
    $ catkin_make
@@ -24,7 +24,7 @@ A. Two wheeled Robot:
   
  3. Run ros_falcon joystick.
     
-    ● Files required: ros_falcon
+          ● Files required: ros_falcon
     
    $ catkin_make
    $ source devel/setup.bash
@@ -46,14 +46,14 @@ B. Controlling Floating box model using Novint falcon haptic device:
 
    $ roslaunch ros_robotics box_gazebo.launch
 
-        ●Files required:
-                        ❏ box_gazebo.launch
-                        ❏ floating_box_11.gazebo
+           ●Files required:
+                           ❏ box_gazebo.launch
+                           ❏ floating_box_11.gazebo
                         
 2. Run the python joystick node.
 
-         Files required:
-                        joy2cmd_vel_box.py
+            Files required:
+                           joy2cmd_vel_box.py
                         
    $ catkin_make
    $ source devel/setup.bash
